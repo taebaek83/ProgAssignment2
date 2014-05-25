@@ -2,6 +2,9 @@
 ## to avoid repetition of this time consuming operation. 
 
 ## Creates a special matrix to hold the calculated result (inverse of the matrix)
+## Produces a list vector that will be subset and used in the cacheSolve function
+## to determine if the inverse of the matrix is held in cache or needs to be
+## recomputed
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
